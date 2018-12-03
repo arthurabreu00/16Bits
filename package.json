@@ -1,0 +1,22 @@
+{
+  "name": "16bits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurabreu00/16Bits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurabreu00/16Bits/issues"
+  },
+  "homepage": "https://github.com/arthurabreu00/16Bits#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
