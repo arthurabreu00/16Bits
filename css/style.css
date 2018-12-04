@@ -1,9 +1,12 @@
 i.brand {
     margin-right: 1rem;
 }
-body,p{
+
+body,
+p {
     font-size: 1em;
 }
+
 .snes-jp-logo {
     position: relative;
     display: inline-block;
@@ -11,8 +14,8 @@ body,p{
     height: 33px;
 }
 
-#mainNav{
-    border:none !important;
+#mainNav {
+    border: none !important;
 }
 
 .snes-jp-logo::before {
@@ -26,24 +29,183 @@ body,p{
     box-shadow: 21px 3px #333, 21px 6px #333, 24px 9px #333, 9px 12px #333, 12px 12px #333, 15px 12px #333, 18px 12px #333, 21px 12px #333, 24px 12px #333, 27px 12px #333, 30px 12px #333, 33px 12px #333, 36px 12px #333, 39px 12px #333, 6px 15px #333, 9px 15px #d7d7d7, 12px 15px #d7d7d7, 15px 15px #d7d7d7, 18px 15px #d7d7d7, 21px 15px #d7d7d7, 24px 15px #d7d7d7, 27px 15px #d7d7d7, 30px 15px #d7d7d7, 33px 15px #d7d7d7, 36px 15px #d7d7d7, 39px 15px #d7d7d7, 42px 15px #333, 3px 18px #333, 6px 18px #d7d7d7, 9px 18px #d7d7d7, 12px 18px #333, 15px 18px #d7d7d7, 18px 18px #d7d7d7, 21px 18px #d7d7d7, 24px 18px #d7d7d7, 27px 18px #d7d7d7, 30px 18px #d7d7d7, 33px 18px #d7d7d7, 36px 18px #999cf7, 39px 18px #d7d7d7, 42px 18px #d7d7d7, 45px 18px #333, 3px 21px #333, 6px 21px #d7d7d7, 9px 21px #333, 12px 21px #333, 15px 21px #333, 18px 21px #d7d7d7, 21px 21px #d7d7d7, 24px 21px #d7d7d7, 27px 21px #d7d7d7, 30px 21px #d7d7d7, 33px 21px #7dbb78, 36px 21px #d7d7d7, 39px 21px #f40500, 42px 21px #d7d7d7, 45px 21px #333, 3px 24px #333, 6px 24px #d7d7d7, 9px 24px #d7d7d7, 12px 24px #333, 15px 24px #d7d7d7, 18px 24px #d7d7d7, 21px 24px #333, 24px 24px #d7d7d7, 27px 24px #333, 30px 24px #d7d7d7, 33px 24px #d7d7d7, 36px 24px #f6f504, 39px 24px #d7d7d7, 42px 24px #d7d7d7, 45px 24px #333, 6px 27px #333, 9px 27px #d7d7d7, 12px 27px #d7d7d7, 15px 27px #d7d7d7, 18px 27px #d7d7d7, 21px 27px #d7d7d7, 24px 27px #d7d7d7, 27px 27px #d7d7d7, 30px 27px #d7d7d7, 33px 27px #d7d7d7, 36px 27px #d7d7d7, 39px 27px #d7d7d7, 42px 27px #333, 9px 30px #333, 12px 30px #333, 15px 30px #333, 18px 30px #333, 21px 30px #333, 24px 30px #333, 27px 30px #333, 30px 30px #333, 33px 30px #333, 36px 30px #333, 39px 30px #333;
 }
 
-.bg-header{
+.bg-header {
     background: url(../img/green-hill-zone.jpg) no-repeat;
     background-size: 100%;
 }
 
-.bg-opacity{
-    background: rgba(165, 165, 165,0.8)
+.bg-opacity {
+    background: rgba(165, 165, 165, 0.8)
 }
 
-section{
+section {
     margin-top: -130px;
 }
 
-section h2{
+section h2 {
     border-bottom-color: #92CC41;
     border-bottom-style: solid;
     border-bottom-width: 4px;
     border-radius: 4px;
     padding-bottom: 40px;
-    margin-bottom: 40px;    
+    margin-bottom: 40px;
+}
+
+.container-padrao {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-padrao {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-padrao {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-padrao {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-padrao {
+        max-width: 1140px;
+    }
+}
+
+.navbar>.container-padrao {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 60px;
+}
+
+.nes-jp-logo::before {
+    position: absolute;
+    content: "";
+    background: transparent;
+    width: 3px;
+    height: 3px;
+    box-shadow: 21px 3px #333, 21px 6px #333, 24px 9px #333, 3px 12px #871f37, 6px 12px #871f37, 9px 12px #871f37, 12px 12px #871f37, 15px 12px #871f37, 18px 12px #871f37, 21px 12px #871f37, 24px 12px #871f37, 27px 12px #871f37, 30px 12px #871f37, 33px 12px #871f37, 36px 12px #871f37, 39px 12px #871f37, 42px 12px #871f37, 45px 12px #871f37, 3px 15px #871f37, 6px 15px #dfd3b9, 9px 15px #dfd3b9, 12px 15px #dfd3b9, 15px 15px #dfd3b9, 18px 15px #dfd3b9, 21px 15px #871f37, 24px 15px #871f37, 27px 15px #871f37, 30px 15px #871f37, 33px 15px #871f37, 36px 15px #871f37, 39px 15px #871f37, 42px 15px #871f37, 45px 15px #871f37, 3px 18px #871f37, 6px 18px #dfd3b9, 9px 18px #dfd3b9, 12px 18px #333, 15px 18px #dfd3b9, 18px 18px #dfd3b9, 21px 18px #871f37, 24px 18px #871f37, 27px 18px #871f37, 30px 18px #871f37, 33px 18px #871f37, 36px 18px #871f37, 39px 18px #871f37, 42px 18px #871f37, 45px 18px #871f37, 3px 21px #871f37, 6px 21px #dfd3b9, 9px 21px #333, 12px 21px #333, 15px 21px #333, 18px 21px #dfd3b9, 21px 21px #dfd3b9, 24px 21px #dfd3b9, 27px 21px #dfd3b9, 30px 21px #dfd3b9, 33px 21px #dfd3b9, 36px 21px #dfd3b9, 39px 21px #dfd3b9, 42px 21px #dfd3b9, 45px 21px #871f37, 3px 24px #871f37, 6px 24px #dfd3b9, 9px 24px #dfd3b9, 12px 24px #333, 15px 24px #dfd3b9, 18px 24px #dfd3b9, 21px 24px #333, 24px 24px #871f37, 27px 24px #333, 30px 24px #dfd3b9, 33px 24px #333, 36px 24px #dfd3b9, 39px 24px #333, 42px 24px #dfd3b9, 45px 24px #871f37, 3px 27px #871f37, 6px 27px #dfd3b9, 9px 27px #dfd3b9, 12px 27px #dfd3b9, 15px 27px #dfd3b9, 18px 27px #dfd3b9, 21px 27px #dfd3b9, 24px 27px #dfd3b9, 27px 27px #dfd3b9, 30px 27px #dfd3b9, 33px 27px #dfd3b9, 36px 27px #dfd3b9, 39px 27px #dfd3b9, 42px 27px #dfd3b9, 45px 27px #871f37, 3px 30px #871f37, 6px 30px #871f37, 9px 30px #871f37, 12px 30px #871f37, 15px 30px #871f37, 18px 30px #871f37, 21px 30px #871f37, 24px 30px #871f37, 27px 30px #871f37, 30px 30px #871f37, 33px 30px #871f37, 36px 30px #871f37, 39px 30px #871f37, 42px 30px #871f37, 45px 30px #871f37;
+}
+
+.modal-body p {
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.icon.is-medium.trophy::before {
+    width: 3px;
+    height: 3px;
+    box-shadow: 9px 3px #444, 12px 3px #444, 15px 3px #444, 18px 3px #444, 21px 3px #444, 24px 3px #444, 27px 3px #444, 30px 3px #444, 33px 3px #444, 36px 3px #444, 39px 3px #444, 9px 6px #444, 12px 6px #ebe527, 15px 6px #ebe527, 18px 6px #ebe527, 21px 6px #ebe527, 24px 6px #ebe527, 27px 6px #ebe527, 30px 6px #ebe527, 33px 6px #ebe527, 36px 6px #f59f54, 39px 6px #444, 3px 9px #444, 6px 9px #444, 9px 9px #444, 12px 9px #ebe527, 15px 9px #fff, 18px 9px #ebe527, 21px 9px #ebe527, 24px 9px #ebe527, 27px 9px #ebe527, 30px 9px #ebe527, 33px 9px #ebe527, 36px 9px #f59f54, 39px 9px #444, 42px 9px #444, 45px 9px #444, 3px 12px #444, 9px 12px #444, 12px 12px #ebe527, 15px 12px #fff, 18px 12px #ebe527, 21px 12px #ebe527, 24px 12px #ebe527, 27px 12px #ebe527, 30px 12px #ebe527, 33px 12px #ebe527, 36px 12px #f59f54, 39px 12px #444, 45px 12px #444, 3px 15px #444, 9px 15px #444, 12px 15px #ebe527, 15px 15px #fff, 18px 15px #ebe527, 21px 15px #ebe527, 24px 15px #ebe527, 27px 15px #ebe527, 30px 15px #ebe527, 33px 15px #ebe527, 36px 15px #f59f54, 39px 15px #444, 45px 15px #444, 6px 18px #444, 9px 18px #444, 12px 18px #ebe527, 15px 18px #fff, 18px 18px #ebe527, 21px 18px #ebe527, 24px 18px #ebe527, 27px 18px #ebe527, 30px 18px #ebe527, 33px 18px #ebe527, 36px 18px #f59f54, 39px 18px #444, 42px 18px #444, 9px 21px #444, 12px 21px #ebe527, 15px 21px #fff, 18px 21px #ebe527, 21px 21px #ebe527, 24px 21px #ebe527, 27px 21px #ebe527, 30px 21px #ebe527, 33px 21px #ebe527, 36px 21px #f59f54, 39px 21px #444, 9px 24px #444, 12px 24px #ebe527, 15px 24px #ebe527, 18px 24px #ebe527, 21px 24px #ebe527, 24px 24px #ebe527, 27px 24px #ebe527, 30px 24px #ebe527, 33px 24px #ebe527, 36px 24px #f59f54, 39px 24px #444, 12px 27px #444, 15px 27px #ebe527, 18px 27px #ebe527, 21px 27px #ebe527, 24px 27px #ebe527, 27px 27px #ebe527, 30px 27px #ebe527, 33px 27px #f59f54, 36px 27px #444, 15px 30px #444, 18px 30px #ebe527, 21px 30px #ebe527, 24px 30px #ebe527, 27px 30px #ebe527, 30px 30px #f59f54, 33px 30px #444, 18px 33px #444, 21px 33px #ebe527, 24px 33px #ebe527, 27px 33px #f59f54, 30px 33px #444, 21px 36px #444, 24px 36px #ebe527, 27px 36px #444, 21px 39px #444, 24px 39px #ebe527, 27px 39px #444, 18px 42px #444, 21px 42px #444, 24px 42px #ebe527, 27px 42px #444, 30px 42px #444, 15px 45px #444, 18px 45px #ebe527, 21px 45px #ebe527, 24px 45px #ebe527, 27px 45px #ebe527, 30px 45px #f59f54, 33px 45px #444, 15px 48px #444, 18px 48px #444, 21px 48px #444, 24px 48px #444, 27px 48px #444, 30px 48px #444, 33px 48px #444;
+}
+
+.icon.is-medium::before {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background: transparent;
+}
+
+.carousel-indicators .active {
+    background: #31708f;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.adjust1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.adjust2 {
+    margin: 0;
+}
+
+.carousel-indicators li {
+    border: 1px solid #ccc;
+}
+
+.carousel-control {
+    color: #31708f;
+    width: 5%;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+    color: #31708f;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.media-object {
+    margin: auto;
+    margin-top: 15%;
+    max-width:500px;
+}
+
+hr{
+    border-top-color: #333;
+    border-top-style: solid;
+    width: 100%;
+    outline: none;
+    border-top-width: 4px;
+    border-radius: 4px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .media-object {
+        margin-top: 0;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link.ativado{
+    color:white !important;
+}
+
+
+.radio:checked+span::before {
+    animation: initial;
+    box-shadow: 2px 2px rgba(255,255,255,.5), 4px 2px rgba(255,255,255,.5), 2px 4px rgba(255,255,255,.5), 4px 4px rgba(255,255,255,.5), 6px 4px rgba(255,255,255,.5), 8px 4px rgba(255,255,255,.5), 2px 6px rgba(255,255,255,.5), 4px 6px rgba(255,255,255,.5), 6px 6px rgba(255,255,255,.5), 8px 6px rgba(255,255,255,.5), 10px 6px rgba(255,255,255,.5), 2px 8px rgba(255,255,255,.5), 4px 8px rgba(255,255,255,.5), 6px 8px rgba(255,255,255,.5), 8px 8px rgba(255,255,255,.5), 10px 8px rgba(255,255,255,.5), 12px 8px rgba(255,255,255,.5), 2px 10px rgba(255,255,255,.5), 4px 10px rgba(255,255,255,.5), 6px 10px rgba(255,255,255,.5), 8px 10px rgba(255,255,255,.5), 10px 10px rgba(255,255,255,.5), 2px 12px rgba(255,255,255,.5), 4px 12px rgba(255,255,255,.5), 6px 12px rgba(255,255,255,.5), 8px 12px rgba(255,255,255,.5), 2px 14px rgba(255,255,255,.5), 4px 14px rgba(255,255,255,.5);
+  }
+  .radio:checked+span::before {
+    box-shadow: 2px 2px rgba(255,255,255,.5), 4px 2px rgba(255,255,255,.5), 2px 4px rgba(255,255,255,.5), 4px 4px rgba(255,255,255,.5), 6px 4px rgba(255,255,255,.5), 8px 4px rgba(255,255,255,.5), 2px 6px rgba(255,255,255,.5), 4px 6px rgba(255,255,255,.5), 6px 6px rgba(255,255,255,.5), 8px 6px rgba(255,255,255,.5), 10px 6px rgba(255,255,255,.5), 2px 8px rgba(255,255,255,.5), 4px 8px rgba(255,255,255,.5), 6px 8px rgba(255,255,255,.5), 8px 8px rgba(255,255,255,.5), 10px 8px rgba(255,255,255,.5), 12px 8px rgba(255,255,255,.5), 2px 10px rgba(255,255,255,.5), 4px 10px rgba(255,255,255,.5), 6px 10px rgba(255,255,255,.5), 8px 10px rgba(255,255,255,.5), 10px 10px rgba(255,255,255,.5), 2px 12px rgba(255,255,255,.5), 4px 12px rgba(255,255,255,.5), 6px 12px rgba(255,255,255,.5), 8px 12px rgba(255,255,255,.5), 2px 14px rgba(255,255,255,.5), 4px 14px rgba(255,255,255,.5);
+  }
+
+.ativado .radio:checked+span::before {
+    animation: blink 1s infinite steps(1);
+    box-shadow: 2px 2px #fff, 4px 2px #fff, 2px 4px #fff, 4px 4px #fff, 6px 4px #fff, 8px 4px #fff, 2px 6px #fff, 4px 6px #fff, 6px 6px #fff, 8px 6px #fff, 10px 6px #fff, 2px 8px #fff, 4px 8px #fff, 6px 8px #fff, 8px 8px #fff, 10px 8px #fff, 12px 8px #fff, 2px 10px #fff, 4px 10px #fff, 6px 10px #fff, 8px 10px #fff, 10px 10px #fff, 2px 12px #fff, 4px 12px #fff, 6px 12px #fff, 8px 12px #fff, 2px 14px #fff, 4px 14px #fff;
+}
+.ativado .radio:checked+span::before {
+    box-shadow: 2px 2px #fff, 4px 2px #fff, 2px 4px #fff, 4px 4px #fff, 6px 4px #fff, 8px 4px #fff, 2px 6px #fff, 4px 6px #fff, 6px 6px #fff, 8px 6px #fff, 10px 6px #fff, 2px 8px #fff, 4px 8px #fff, 6px 8px #fff, 8px 8px #fff, 10px 8px #fff, 12px 8px #fff, 2px 10px #fff, 4px 10px #fff, 6px 10px #fff, 8px 10px #fff, 10px 10px #fff, 2px 12px #fff, 4px 12px #fff, 6px 12px #fff, 8px 12px #fff, 2px 14px #fff, 4px 14px #fff;
 }

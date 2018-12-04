@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>16 BITS</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    <!-- NES CSS-->
-    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+    <link href="css/scrolling-nav.css" rel="stylesheet" />
+    <!-- NES CSS -->
+    <link
+      href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css"
+      rel="stylesheet"
+    />
     <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
-    <!-- Custom CSS-->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- ICON -->
+    <link href="img/controle.png" rel="icon" />
   </head>
 
   <body id="page-top">
-
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-      <div class="container ">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="snes-jp-logo brand"></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      id="mainNav"
+    >
+      <div class="container-padrao ">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          ><i class="snes-jp-logo"></i> 16 Bits</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              
+              <a class="nav-link" id="music">
+                <input type="radio" class="radio" name="answer" checked="">
+                <span>Música</span>
+              </a>
+                    
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Consoles</a>
+              <a class="nav-link js-scroll-trigger" href="#services"
+                >Consoles</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Jogos</a>
@@ -47,9 +75,8 @@
     </nav>
 
     <header class="bg-header text-white">
-
       <div class="container bg-opacity text-center">
-        <h1> VIDEO GAMES CLÁSSICOS </h1>
+        <h1>VIDEO GAMES CLÁSSICOS</h1>
         <p class="lead">A perfeição em poucos pixels</p>
       </div>
     </header>
@@ -57,33 +84,407 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-center">História</h2>
+          <div class="col-lg-11 mx-auto">
+            <h2 class="text-center">
+              História <i class="icon heart is-medium"></i>
+            </h2>
             <p class="lead">
-                Na história dos consoles de videogame, a quarta geração (também conhecida com a era dos 16-bits) compreende os consoles lançados entre os anos de 1987 e 1996, dentre os quais destacam-se o Mega Drive, o Neo Geo e o Super Nintendo. Essa quarta geração tinha aparelhos com processadores de 16-bit e foi sucedida pela quinta geração, com um grande salto na capacidade de processamento e armazenamento dados, na qual se destacou o PlayStation. Algumas características marcantes da geração que diferenciam da terceira geração incluem:
+              Na história dos consoles de videogame, a quarta geração (também
+              conhecida com a era dos 16-bits) compreende os consoles lançados
+              entre os anos de 1987 e 1996, dentre os quais destacam-se o Mega
+              Drive, o Neo Geo e o Super Nintendo. Essa quarta geração tinha
+              aparelhos com processadores de 16-bit e foi sucedida pela quinta
+              geração, com um grande salto na capacidade de processamento e
+              armazenamento dados, na qual se destacou o PlayStation. Algumas
+              características marcantes da geração que diferenciam da terceira
+              geração incluem:
             </p>
             <ul>
               <li>Microprocessadores de 16 bits mais poderosos.</li>
               <li>Controladores de jogo com 3 a 8 botões.</li>
-              <li>Rolagem paralaxe com cenários de muitas camadas, contendo escalação e rotação em pseudo-3D.</li>
+              <li>
+                Rolagem paralaxe com cenários de muitas camadas, contendo
+                escalação e rotação em pseudo-3D.
+              </li>
               <li>Sprites maiores (de até com 64x64 ou 16x512 píxeis).</li>
-              <li>Cores mais elaboradas, de 64 a 256 (ou 4096) na tela, em paletas de 512 a 32,768 (ou 65,536) cores.</li>
+              <li>
+                Cores mais elaboradas, de 64 a 256 (ou 4096) na tela, em paletas
+                de 512 a 32,768 (ou 65,536) cores.
+              </li>
               <li>Gráficos pré-renderizados em simples polígonos 3D.</li>
-              <li>Introdução de formato CD-ROM (primeiramente em periféricos de consoles), capacitando enormes armazenamentos vídeos em full motion.</li>
-              <li>Áudio estéreo com vários canais independentes (no máximo 10), com som digital (PCM, ADPCM e Red Book).</li>
-              <li>Síntese de som avançado (síntese de formas de onda e síntese FM).</li>
+              <li>
+                Introdução de formato CD-ROM (primeiramente em periféricos de
+                consoles), capacitando enormes armazenamentos vídeos em full
+                motion.
+              </li>
+              <li>
+                Áudio estéreo com vários canais independentes (no máximo 10),
+                com som digital (PCM, ADPCM e Red Book).
+              </li>
+              <li>
+                Síntese de som avançado (síntese de formas de onda e síntese
+                FM).
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" >
+    <section id="services">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Services we offer</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <div class="col-lg-11 mx-auto">
+            <h2 class="text-center">
+              Consoles<i class="nes-jp-logo is-medium"></i>
+            </h2>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    class="card-img-top"
+                    src="img/super-nes.jpg"
+                    alt="Imagem de capa do card"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Super nitendo</h5>
+                    <p class="card-text">
+                      Também conhecido como o Super NES, SNES ou Super Nintendo,
+                      é um console de videogame de 16 bits...
+                    </p>
+                    <button
+                      type="button"
+                      class="btn is-success"
+                      data-toggle="modal"
+                      data-target="#super-nitendo"
+                    >
+                      Leia mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="modal fade"
+                id="super-nitendo"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                      <h5 class="modal-title " id="exampleModalLabel">
+                        Super Nitendo
+                      </h5>
+                      <button
+                        type="button"
+                        class="close text-white"
+                        data-dismiss="modal"
+                        aria-label="Fechar"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <figure class="figure">
+                        <img
+                          src="img/1024px-Wikipedia_SNES_PAL.jpg"
+                          class="figure-img img-fluid rounded"
+                        />
+                      </figure>
+                      <p>
+                        Super Nintendo Entertainment System, (também conhecido
+                        como o Super NES, SNES ou Super Nintendo, em português
+                        Super Sistema de Entretenimento Nintendo) é um console
+                        de videogame de 16 bits desenvolvido pela Nintendo que
+                        foi lançado em 1990 no Japão, 1991 nos Estados Unidos,
+                        1992 na Europa e Australásia (Oceania) e América do Sul
+                        em 1993. No Japão, o sistema é chamado de Super Famicom
+                        (Sūpā Famikon), oficialmente, adotando o nome abreviado
+                        do seu antecessor, o Famicom), ou SFC para breve. Na
+                        Coréia do Sul, é conhecida como a Super Comboy e foi
+                        distribuído pela Hyundai Electronics. Embora cada versão
+                        é essencialmente o mesmo, várias formas de bloqueio
+                        regional impedem as diferentes versões sejam compatíveis
+                        entre si.
+                      </p>
+                      <p>
+                        O Super Nintendo Entertainment System é o segundo home
+                        console da Nintendo, o Nintendo Entertainment System
+                        (NES) foi o primeiro. O console apresentou gráficos
+                        avançados e recursos de som em comparação com outros
+                        consoles na época. Além disso, o desenvolvimento de uma
+                        variedade de chips de aprimoramento (que foram
+                        integrados em placas de circuito) ajudou a mantê-lo
+                        competitivo no mercado. Enquanto brutos gráficos
+                        tridimensionais raramente tinham sido vistos antes em
+                        consoles domésticos, utilizando o chip Super FX
+                        começando com Star Fox em 1993, o SNES foi capaz de
+                        rodar jogos com o mais suave e mais detalhados gráficos
+                        tridimensionais, que era anteriormente possível. Isso
+                        despertou interesse mais difundido em gráficos de
+                        polígono na indústria, ajudando a inaugurar em gráficos
+                        3D, como pode ser visto na quinta geração de consoles de
+                        videogame.
+                      </p>
+                      <p>
+                        O SNES foi um sucesso mundial, tornando-se o console
+                        mais vendido da época apesar de seu início relativamente
+                        tardio e a competição feroz que enfrentou na Europa e
+                        América do norte. O SNES permaneceu popular até a era de
+                        32 bits e continua a ser popular entre os fãs,
+                        colecionadores, retro gamers e entusiastas de emulação,
+                        alguns dos quais ainda estão fazendo imagens ROM
+                        homebrew. O sucesso de sua venda foi superior a 50
+                        milhões de unidades por todo o mundo. O SNES foi
+                        oficialmente descontinuado em setembro de 1999 nos
+                        Estados Unidos, e em setembro de 2003, no Japão.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn is-warning"
+                        data-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    class="card-img-top"
+                    src="img/1495752716284.jpg"
+                    alt="Imagem de capa do card"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mega Drive</h5>
+                    <p class="card-text">
+                      Mega Drive, conhecido como Sega Genesis na América do
+                      Norte, é um console de video game de 16 bits da Sega ...
+                    </p>
+                    <button
+                      type="button"
+                      class="btn is-warning"
+                      data-toggle="modal"
+                      data-target="#mega-drive"
+                    >
+                      Leia mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="modal fade"
+                id="mega-drive"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                      <h5 class="modal-title " id="exampleModalLabel">
+                        Mega Drive
+                      </h5>
+                      <button
+                        type="button"
+                        class="close text-white"
+                        data-dismiss="modal"
+                        aria-label="Fechar"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <figure class="figure">
+                        <img
+                          src="img/1280px-Sega-Mega-Drive-JP-Mk1-Console-Set.png"
+                          class="figure-img img-fluid rounded"
+                        />
+                      </figure>
+                      <p>
+                        Mega Drive conhecido como Sega Genesis na América do
+                        Norte, é um console de video game de 16 bits da Sega que
+                        concorria diretamente com o Super Nintendo Entertainment
+                        System. O console fez grande sucesso na década de 1990,
+                        perdendo espaço após o surgimento e popularização da
+                        nova geração de consoles de 32 bits, como o PlayStation
+                        da Sony.
+                      </p>
+                      <p>
+                        Dentre os jogos de maior sucesso desse sistema está a
+                        série Sonic the Hedgehog, a aventura de um veloz ouriço
+                        azul para salvar os animais de seu planeta. O jogo foi
+                        criado com o objetivo de mostrar a capacidade do console
+                        de processar informações rapidamente, e ainda cativar o
+                        público jovem, criando assim a Sega seu próprio mascote
+                        e maior símbolo. A velocidade do jogo tinha por objetivo
+                        mostrar a superioridade do processador do Mega Drive em
+                        relação ao console de 16 bits da Nintendo.
+                      </p>
+                      <p>
+                        No Brasil, o Mega Drive ainda é produzido pela Tectoy,
+                        com novas versões. No exterior, de 2006 até o momento, 3
+                        novos jogos para o console foram produzidos, sendo o
+                        mais famoso dentre eles o Pier Solar and the Great
+                        Architects.
+                      </p>
+                      <p>
+                        O Mega Drive consta com mais de 40 milhões de consoles
+                        vendidos.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn is-warning"
+                        data-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    class="card-img-top"
+                    src="img/neo_geo_aes_console.webp"
+                    alt="Imagem de capa do card"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Neo Geo</h5>
+                    <p class="card-text">
+                      Neo Geo é uma família da hardware de videogames
+                      desenvolvido pela SNK...
+                    </p>
+                    <button
+                      type="button"
+                      class="btn is-error"
+                      data-toggle="modal"
+                      data-target="#neo-geo"
+                    >
+                      Leia mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="modal fade"
+                id="neo-geo"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                      <h5 class="modal-title " id="exampleModalLabel">
+                        Neo Geo
+                      </h5>
+                      <button
+                        type="button"
+                        class="close text-white"
+                        data-dismiss="modal"
+                        aria-label="Fechar"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <figure class="figure">
+                        <img
+                          src="img/Neo-Geo-AES-Console-Set.png"
+                          class="figure-img img-fluid rounded"
+                        />
+                      </figure>
+                      <p>
+                        Neo Geo é uma família da hardware de videogames
+                        desenvolvido pela SNK. No mercado de 1990 a 2004, a
+                        marca originou-se com a liberação de um sistema arcade,
+                        o Neo Geo MVS e sua contraparte de console doméstico, o
+                        Neo Geo AES. Tanto o sistema arcade quanto o console
+                        foram poderosos para o tempo e o AES permite a
+                        compatibilidade perfeita dos jogos lançados para o MVS.
+                        No entanto, o ponto de preço elevado tanto para o
+                        console AES quanto para os seus jogos impediu-o de
+                        competir diretamente com seus contemporâneos, Sega
+                        Genesis, Super NES e TurboGrafx-16. No entanto, o arcade
+                        MVS tornou-se muito bem sucedido em lojas no Japão e na
+                        América do Norte.
+                      </p>
+                      <p>
+                        Anos depois, a SNK lançou o Neo-Geo CD, um console mais
+                        econômico com jogos lançados em discos compactos. O
+                        console recebeu um sucesso limitado, em parte devido ao
+                        seu lento CD-ROM. Na tentativa de competir com jogos 3D
+                        cada vez mais populares, a SNK lançou o sistema de
+                        arcade Hyper Neo Geo 64 em 1997 como o sucessor do MVS
+                        em envelhecimento. O sistema não correu bem e apenas
+                        alguns jogos foram lançados para isso. Um console de
+                        casa planejado com base no hardware nunca foi lançado. A
+                        SNK ampliou a marca ao lançar dois consoles de mão, o
+                        Neo Geo Pocket e mais tarde o Neo Geo Pocket Color, que
+                        brevemente competiram com o Game Boy da Nintendo. Logo
+                        após a sua liberação, a SNK encontrou vários problemas
+                        legais e financeiros - no entanto, o Neo Geo MVS e AES
+                        original continuaram a receber novos jogos sob nova
+                        propriedade até serem oficialmente descontinuados em
+                        2004, terminando a marca.
+                      </p>
+                      <p>
+                        Independentemente da falha no hardware Neo Geo
+                        posterior, os jogos para MVS e AES originais foram bem
+                        recebidos. O sistema gerou várias séries de longa
+                        duração e aclamadas pela crítica, principalmente
+                        lutadores 2D, incluindo Fatal Fury, Art of Fighting,
+                        Samurai Shodown e The King of Fighters, além de jogos
+                        populares em outro gêneros, como a série Metal Slug e
+                        Baseball Stars. Em dezembro de 2012, a SNK Playmore
+                        lançou um console de mão baseado no AES original, o Neo
+                        Geo X. A partir de março de 1997, o Neo Geo vendeu 980
+                        mil unidades em todo o mundo. O Neo Geo Pocket Color
+                        também foi louvado por múltiplas inovações e uma
+                        biblioteca muito substancial, apesar da sua curta vida.
+                      </p>
+                      <p>
+                        A SNK anunciou hoje que está trabalhando em um novo
+                        hardware como parte das celebrações de 40 anos da
+                        companhia. O novo console virá com diversos jogos de
+                        NEO-GEO instalados. O novo hardware estará cheio de
+                        jogos de NEO-GEO e está sendo feito como uma forma de
+                        agradecer aos fãs que apoiaram as séries da SNK como The
+                        King of Fighters, Fatal Fury, Samurai Shodown, Metal
+                        Slug e muito mais.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn is-warning"
+                        data-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,12 +493,115 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <div class="col-lg-11 mx-auto">
+            <h2 class="text-center">
+              Jogos <i class="icon trophy is-medium"></i>
+            </h2>
+              <div
+                id="carousel-example-generic"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="thumbnail adjust1">
+                          <div class="col-md-2 col-sm-2 col-xs-12">
+                            <img
+                              class="media-object img-rounded img-responsive"
+                              src="img/Super-Mario-World-ROM.jpg"
+                            />
+                          </div>
+
+
+                          <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="caption">
+                              <p class="text-info lead adjust2">
+                                SUPER MARIO WORLD
+                              </p>
+                              <p>
+                                <span
+                                  class="glyphicon glyphicon-thumbs-up"
+                                ></span>
+                                Super Mario World, originalmente chamado no Japão de Super Mario Bros. 4, é um jogo de plataforma desenvolvido e publicado pela Nintendo como um título que acompanhava o console Super Nintendo Entertainment System.
+                              </p>
+   
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="thumbnail adjust1">
+                          <div class="col-md-2 col-sm-2 col-xs-12">
+                            <img
+                              class="media-object img-rounded img-responsive"
+                              src="img/sonict.jpg"
+                            />
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="caption">
+                              <p class="text-info lead adjust2">
+                                  Sonic the Hedgehog
+                              </p>
+                              <p>
+                                <span
+                                  class="glyphicon glyphicon-thumbs-up"
+                                ></span>
+                                Sonic the Hedgehog é um jogo eletrônico de plataforma produzido pela Sonic Team e publicado pela Sega para o Sega Genesis. Foi lançado originalmente na América do Norte em junho de 1991 e na região PAL no mês seguinte
+                              </p>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="thumbnail adjust1">
+                          <div class="col-md-2 col-sm-2 col-xs-12">
+                            <img
+                              class="media-object img-rounded img-responsive"
+                              src="img/topgear.png"
+                            />
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="caption">
+                              <p class="text-info lead adjust2">
+                                  Top Gear 
+                              </p>
+                              <p>
+                                <span
+                                  class="glyphicon glyphicon-thumbs-up"
+                                ></span>
+                                Top Gear,é um jogo eletrônico lançado em 1992 para o Super NES. Foi desenvolvido pela Gremlin Graphics e publicado pela Kemco. Este é o primeiro jogo da franquia Top Gear. É um jogo de corrida, e é um dos primeiros jogos desse gênero para o SNES. O objetivo do jogo é se tornar o piloto mais rápido do mundo correndo em vários países.
+                              </p>
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Controls -->
+                
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+
     </section>
 
     <!-- Footer -->
@@ -117,7 +621,6 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-
+    <script src="js/script.js"></script>
   </body>
-
 </html>
